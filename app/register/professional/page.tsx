@@ -48,7 +48,7 @@ export default function RegisterProfessional() {
       } else {
         setMessage("❌ " + data.message)
       }
-    } catch (error) {
+    } catch {
       setMessage("❌ Error de conexión")
     }
 
